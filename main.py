@@ -5,7 +5,7 @@ from GUI import Window
 
 
 def main():
-    """ba bla"""
+    """ba bla bla"""
 
     win = Window()
     Window.initWindow(win)
