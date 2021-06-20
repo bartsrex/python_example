@@ -16,6 +16,7 @@ class Stan():
         for ksiazka in self.stan:
             if ksiazka.numer_kat == nr_kat:
                 return True
+            
 
 class Ksiazka():
 
