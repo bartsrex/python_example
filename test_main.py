@@ -7,7 +7,7 @@ class TestText(unittest.TestCase):
 
     def test_1(self):
         text = 'Ala ma kota'
-        self.assertEqual(count_words(text), 2, 'Powinno być 2')
+        self.assertEqual(count_words(text), 2, 'Powinno byc 2')
 
     def test_2(self):
         text2 = 'ma ca sa'
