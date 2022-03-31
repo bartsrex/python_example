@@ -4,7 +4,7 @@ import Data
 
 class TestData(unittest.TestCase):
 
-    """Klasa implementująca testy."""
+    """Klasa implementujaca testy."""
 
     def test_init_Stan(self):
         """Test jednostkowy."""
@@ -16,7 +16,7 @@ class TestData(unittest.TestCase):
             self.assertIsInstance(test_obj, Data.Stan, "text")
 
     def test_dodaj_do_stanu(self):
-        """Test jednostkowy i integracyjny (z klasą Ksiazka)."""
+        """Test jednostkowy i integracyjny (z klasa Ksiazka)."""
         try:
             test_obj = Data.Stan()
         except:
@@ -26,7 +26,7 @@ class TestData(unittest.TestCase):
         self.assertEquals(res, True)
 
     def test_dodaj_do_stanu2(self):
-        """Test jednostkowy i integracyjny (z klasą Ksiazka)."""
+        """Test jednostkowy i integracyjny (z klasa Ksiazka)."""
         try:
             test_obj = Data.Stan()
         except:
